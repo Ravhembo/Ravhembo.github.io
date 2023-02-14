@@ -1,53 +1,49 @@
-body{
-    background-color: black;
-    color: white;
-
-}
-header{
-    width: 100%;
-    background-color: royalblue;
-}
-nav{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 40px;
+body {
+    position: absolute;
+    background-color: #D8D8D8;
 }
 
-nav a{
-    text-decoration: none;
-    color: blue;
-    background-color: rgb(255, 255, 255);
-    padding: 9px;
-    border-radius: 15px;
-    -webkit-box-shadow: 0 0 8px 8px #5C5C5C;
-    box-shadow: 0 0 8px 8px #5C5C5C;
+h1 {
+    color: #000000;
+    position: absolute;
+    width: 224px;
+    height: 39px;
+    left: 25px;
+    top: 28px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
 }
 
-aside{
-    display: flex;
-    background-color: white;
-    width: 150px;
-    color: black;
-    border-radius: 15px;
-    padding: 5px;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
+h2 {
+    color: #000000;
+    position: absolute;
+    width: 90px;
+    height: 29px;
+    left: 264px;
+    top: 37px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
 }
 
-aside h3{
-    font-weight: 900;
-}
-
-main{
-    display: flex;
-}
-
-.left{
-    float: left;
-}
-
-.right{
-    float: right;
+h3 {
+    color: #000000;
+    position: absolute;
+    width: 88px;
+    height: 29px;
+    left: 1615px;
+    top: 28px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
 }
