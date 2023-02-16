@@ -3,6 +3,14 @@ body {
     background-color: #D8D8D8;
 }
 
+svg {
+    position: absolute;
+    width: 1440;
+    height: 161px;
+    left: 0px;
+    top: 0px;
+}
+
 h1 {
     position: absolute;
     width: 224px;
