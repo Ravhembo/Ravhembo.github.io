@@ -3,12 +3,41 @@ body {
     background-color: #D8D8D8;
 }
 
-svg {
+svg circle {
     position: absolute;
-    width: 1440;
-    height: 161px;
-    left: 0px;
-    top: 0px;
+    width: 573px;
+    height: 574px;
+    left: 1076px;
+    top: 117px;
+}
+
+p {
+    color: #696969;
+    position: absolute;
+    width: 145px;
+    height: 58px;
+    left: 240px;
+    top: 178px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+h4{
+    position: absolute;
+    width: 531px;
+    height: 92px;
+    left: 229px;
+    top: 170px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 92px;
 }
 
 h1 {
